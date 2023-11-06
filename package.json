@@ -1,5 +1,5 @@
 {
-  "name": "@rizzlogy/BardAI",
+  "name": "bardie",
   "version": "1.0.0",
   "description": "A powerful library for interacting with the Google Bard API",
   "main": "index.js",
