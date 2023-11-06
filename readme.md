@@ -23,12 +23,12 @@ please create [Issues](https://github.com/rizzlogy/BardAI/issues/new)
 # Installation
 **🔲 Installation For CLI**
 ```bash
-npm i BardAI -g
+npm i @rizzlogy/BardAI -g
 ```
 #
 **📂 Installation**
 ```bash
-npm i BardAI
+npm i  @rizzlogy/BardAI
 ```
 #
 # Quick Example
@@ -37,7 +37,7 @@ npm i BardAI
 ```js
 /* Importing The Package */
 
-const { BardAI } = require('BardAI');
+const { BardAI } = require('@rizzlogy/BardAI');
 const bard = new BardAI();
 
 /*Send Request Message:*/
@@ -74,7 +74,7 @@ Result:
 #
 **Example Interface And Usage For TypeScript;**
 ```ts
-import { BardAI } from "BardAI";
+import { BardAI } from "@rizzlogy/BardAI";
 
 const bard = new BardAI();
 
