@@ -28,7 +28,7 @@ npm i @rizzlogy/BardAI -g
 #
 **📂 Installation**
 ```bash
-npm i  @rizzlogy/BardAI
+npm i @rizzlogy/BardAI
 ```
 #
 # Quick Example
