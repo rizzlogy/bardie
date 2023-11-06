@@ -5,9 +5,9 @@
 <p align="center">
 <a target="_blank" href="https://github.com/rizzlogy"><img title="Author" src="https://img.shields.io/badge/Author-RizzyFuzz-blue.svg?style=for-the-badge&logo=github" /></a>
 <br>
-<a target="_blank" href="//npmjs.com/BardAI"><img src="https://img.shields.io/npm/dw/BardAI?color=blue&label=Downloads&logo=npm&style=flat"></a>
+<a target="_blank" href="//npmjs.com/@rizzlogy/BardAI"><img src="https://img.shields.io/npm/dw/@rizzlogy/BardAI?color=blue&label=Downloads&logo=npm&style=flat"></a>
 <br>
-<a target="_blank" href="https://www.npmjs.com/package/BardAI?activeTab=versions"><img src="https://img.shields.io/npm/v/BardAI?color=green&label=version&logo=npm&style=social"></a>
+<a target="_blank" href="https://www.npmjs.com/package/@rizzlogy/BardAI?activeTab=versions"><img src="https://img.shields.io/npm/v/@rizzlogy/BardAI?color=green&label=version&logo=npm&style=social"></a>
 </p>
 
 # Note
