@@ -5,9 +5,9 @@
 <p align="center">
 <a target="_blank" href="https://github.com/rizzlogy"><img title="Author" src="https://img.shields.io/badge/Author-RizzyFuzz-blue.svg?style=for-the-badge&logo=github" /></a>
 <br>
-<a target="_blank" href="//npmjs.com/@rizzlogy/BardAI"><img src="https://img.shields.io/npm/dw/@rizzlogy/BardAI?color=blue&label=Downloads&logo=npm&style=flat"></a>
+<a target="_blank" href="//npmjs.com/bardie"><img src="https://img.shields.io/npm/dw/bardie?color=blue&label=Downloads&logo=npm&style=flat"></a>
 <br>
-<a target="_blank" href="https://www.npmjs.com/package/@rizzlogy/BardAI?activeTab=versions"><img src="https://img.shields.io/npm/v/@rizzlogy/BardAI?color=green&label=version&logo=npm&style=social"></a>
+<a target="_blank" href="https://www.npmjs.com/package/bardie?activeTab=versions"><img src="https://img.shields.io/npm/v/bardie?color=green&label=version&logo=npm&style=social"></a>
 </p>
 
 # Note
@@ -23,12 +23,12 @@ please create [Issues](https://github.com/rizzlogy/BardAI/issues/new)
 # Installation
 **🔲 Installation For CLI**
 ```bash
-npm i @rizzlogy/BardAI -g
+npm i bardie -g
 ```
 #
 **📂 Installation**
 ```bash
-npm i @rizzlogy/BardAI
+npm i bardie
 ```
 #
 # Quick Example
@@ -37,7 +37,7 @@ npm i @rizzlogy/BardAI
 ```js
 /* Importing The Package */
 
-const { BardAI } = require('@rizzlogy/BardAI');
+const { BardAI } = require('bardie');
 const bard = new BardAI();
 
 /*Send Request Message:*/
@@ -74,7 +74,7 @@ Result:
 #
 **Example Interface And Usage For TypeScript;**
 ```ts
-import { BardAI } from "@rizzlogy/BardAI";
+import { BardAI } from "bardie";
 
 const bard = new BardAI();
 
