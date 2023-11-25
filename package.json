@@ -3,7 +3,7 @@
   "version": "1.1.0",
   "description": "A powerful library for interacting with the Google Bard API",
   "main": "index.js",
-  "types": "./lib/BardAI.d.ts",
+  "types": "./lib/bardie.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -33,10 +33,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rizzlogy/BardAI.git"
+    "url": "git+https://github.com/rizzlogy/bardie.git"
   },
   "bugs": {
-    "url": "https://github.com/rizzlogy/BardAI"
+    "url": "https://github.com/rizzlogy/bardie"
   },
   "homepage": "https://bard.rizzy.eu.org",
   "dependencies": {
