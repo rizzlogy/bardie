@@ -37,11 +37,20 @@ npm i bardie
 ### **Example Question To Send Bard API Request**
 ```js
 const { BardAI } = require('bardie');
-
 const bard = new BardAI();
-const result = await bard.question({ ask: "hi" });
 
-return result;
+async function call() {
+  try {
+    let result = await bard.questionWithImage({
+      ask: "hi",
+    });
+    console.log(result);
+  } catch (error) {
+    console.error("Error:", error.message);
+  }
+};
+
+call();
 ```
 > Response:
 ```js
@@ -56,11 +65,21 @@ return result;
 ### **Example Question With Image To Send Bard API Request**
 ```js
 const { BardAI } = require('bardie');
-
 const bard = new BardAI();
-const result = await bard.question({ ask: "What is in this image?", image: "https://telegra.ph/file/b97fd7e8c626a0c03af8e.jpg" });
 
-return result;
+async function call() {
+  try {
+    let result = await bard.questionWithImage({
+      ask: "explain the error in this picture",
+      image: "https://telegra.ph/file/b97fd7e8c626a0c03af8e.jpg"
+    });
+    console.log(result);
+  } catch (error) {
+    console.error("Error:", error.message);
+  }
+};
+
+call();
 ```
 > Response:
 ```js
