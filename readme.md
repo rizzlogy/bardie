@@ -129,4 +129,4 @@ bardie "Who is Elon Musk?"
 bardie --image "What is in this image?" "https://telegra.ph/file/b97fd7e8c626a0c03af8e.jpg"
 ```
 
-**[Bardie](https://npmjs.com/bardie) Also Supports Typ EsModule 🥳!**
+**[Bardie](https://npmjs.com/bardie) Also Supports Typescript & EsModule 🥳!**
