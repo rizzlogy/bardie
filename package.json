@@ -1,6 +1,6 @@
 {
   "name": "bardie",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A powerful library for interacting with the Google Bard API",
   "main": "index.js",
   "types": "./lib/BardAI.d.ts",
@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "bard": "./cli.js"
+    "bardie": "./cli.js"
   },
   "publishConfig": {
     "access": "public"
