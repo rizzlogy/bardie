@@ -120,13 +120,4 @@ call();
 }
 ```
 #
-**Example CLI Command Usage**
-```bash
-bardie "Who is Elon Musk?"
-```
-**Example CLI Command With Url Image Usage**
-```bash
-bardie --image "What is in this image?" "https://telegra.ph/file/b97fd7e8c626a0c03af8e.jpg"
-```
-
 **[Bardie](https://npmjs.com/bardie) Also Supports Typescript & EsModule 🥳!**
