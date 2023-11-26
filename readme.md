@@ -15,11 +15,11 @@
 
 ID<br>
 Jika Ada Bug,<br>
-Silahkan Buat [Issues](https://github.com/rizzlogy/BardAI/issues/new)
+Silahkan Buat [Issues](https://github.com/rizzlogy/bardie/issues/new)
 
 EN<br>
 If there are bugs,<br>
-please create [Issues](https://github.com/rizzlogy/BardAI/issues/new)
+please create [Issues](https://github.com/rizzlogy/bardie/issues/new)
 #
 
 # Installation
