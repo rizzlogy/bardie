@@ -36,8 +36,8 @@ npm i bardie
 # Quick Example
 ### **Example Question To Send Bard API Request**
 ```js
-const { BardAI } = require('bardie');
-const bard = new BardAI();
+const { Bardie } = require('bardie');
+const bard = new Bardie();
 
 async function call() {
   try {
@@ -64,8 +64,8 @@ call();
 ```
 ### **Example Question With Image To Send Bard API Request**
 ```js
-const { BardAI } = require('bardie');
-const bard = new BardAI();
+const { Bardie } = require('bardie');
+const bard = new Bardie();
 
 async function call() {
   try {
