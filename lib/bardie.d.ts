@@ -1,15 +1,15 @@
-export = bardie;
+export = Bardie;
 
 /**
- * @typedef {Class} bardie
- * @see {bardie}
- * @param {Class} bardie
- * @example const { bardie } = require("bardie");
- * @example import { bardie } from "bardie";
+ * @typedef {Class} Bardie
+ * @see {Bardie}
+ * @param {Class} Bardie
+ * @example const { Bardie } = require("bardie");
+ * @example import { Bardie } from "bardie";
  * @type {Class}
  * @class
  */
-declare class bardie {
+declare class Bardie {
   constructor();
 
   /**
@@ -34,5 +34,4 @@ declare class bardie {
   questionWithImage(options: { ask: string, image: string }): Promise<Object>;
 }
 
-// Ensure the namespace is empty if not used
-declare namespace bardie {}
+declare namespace Bardie {}
