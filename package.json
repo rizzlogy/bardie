@@ -25,7 +25,7 @@
     "cli",
     "bard",
     "BardAI",
-    "bard.google.com",
+    "bard.google.com"
   ],
   "repository": {
     "type": "git",
