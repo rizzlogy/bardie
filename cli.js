@@ -1,3 +1,4 @@
+"use strict";
 #!/usr/bin/env node
 
 const { hideBin } = require('yargs/helpers');
@@ -6,6 +7,7 @@ const cheerio = require("cheerio");
 const Bardie = require('./lib/bardie');
 const promptSync = require('prompt-sync');
 const Markdown = require('markdown-it');
+const chalk = require("chalk");
 
 const prompt = promptSync({
     autocomplete: getAutoComplete(['!exit']),
