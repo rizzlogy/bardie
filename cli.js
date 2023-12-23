@@ -3,7 +3,7 @@
 const { hideBin } = require('yargs/helpers');
 const { argv } = require('yargs');
 const cheerio = require("cheerio");
-const ChatBot = require('./src/ChatBot.js');
+const { Bardie } = require('./lib/bardie.js');
 const promptSync = require('prompt-sync');
 const Markdown = require('markdown-it');
 
@@ -16,6 +16,42 @@ function getAutoComplete(commands) {
         return commands.filter((c) => c.startsWith(partial));
     };
 }
+
+async function htmlToCommandLine(html) {
+    const $ = cheerio.load(html);
+    const elements = $('body').children();
+    const styledElements = [];
+
+    elements.each(function (i, element) {
+        let styledElement;
+
+        switch (element.name) {
+            case 'p':
+                styledElement = chalk.bold($(element).text());
+                break;
+            case 'ul':
+                const $listItems = $(element).find('li');
+                styledElement = $listItems
+                    .map((i, li) => chalk.yellow(`- ${$(li).text()}`))
+                    .get()
+                    .join('\n');
+                break;
+            case 'pre':
+                styledElement = chalk.gray($(element).find('code').text());
+                break;
+            case 'code':
+                styledElement = chalk.gray($(element).text());
+                break;
+            default:
+                styledElement = $(element).text();
+        }
+
+        styledElements.push(styledElement);
+    });
+
+    return styledElements.join('\n\n');
+}
+
 
 const markdown = new Markdown();
 
