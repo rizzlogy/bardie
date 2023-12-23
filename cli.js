@@ -2,6 +2,7 @@
 
 const { hideBin } = require('yargs/helpers');
 const { argv } = require('yargs');
+const cheerio = require("cheerio");
 const ChatBot = require('./src/ChatBot.js');
 const promptSync = require('prompt-sync');
 const Markdown = require('markdown-it');
