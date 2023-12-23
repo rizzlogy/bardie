@@ -75,7 +75,7 @@ const markdown = new Markdown();
                 break;
             }
 
-            const response = await bard.questionWithImage({ ask: userPrompt });
+            const response = await bard.question({ ask: userPrompt });
             console.log('Bardie : ', await htmlToCommandLine(markdown.render(response.content)) + '\n\n');
         }
     } catch (error) {
