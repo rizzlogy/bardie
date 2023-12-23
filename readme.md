@@ -28,8 +28,8 @@
 
 # Note
 
-> #### EN
-If there are bugs, please create [Issues](https://github.com/rizzlogy/bardie/issues/new)
+#### EN
+> If there are bugs, please create [Issues](https://github.com/rizzlogy/bardie/issues/new)
 
 #### ID
 > Jika Ada Bug, Silahkan Buat [Issues](https://github.com/rizzlogy/bardie/issues/new)
@@ -74,9 +74,9 @@ async function askQuestion() {
 askQuestion();
 ```
 
-##### Response
+##### Response:
 
-```js
+```json
 {
   "content": "In a nutshell, I'm Google's AI helper you can chat with. I can answer your questions, generate creative text formats, and help you with various tasks in a simple and informative way. Think of me as a friendly AI companion ready to assist you anytime!",
   "status": true,
@@ -107,7 +107,7 @@ async function askQuestionWithImage() {
 askQuestionWithImage();
 ```
 
-##### Response
+##### Response:
 
 ```json
 {
