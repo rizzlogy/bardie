@@ -3,7 +3,7 @@
 const { hideBin } = require('yargs/helpers');
 const { argv } = require('yargs');
 const cheerio = require("cheerio");
-const { Bardie } = require('./lib/bardie.js');
+const { Bardie } = require('./lib/bardie');
 const promptSync = require('prompt-sync');
 const Markdown = require('markdown-it');
 
@@ -63,19 +63,20 @@ const markdown = new Markdown();
   
     Enter Ctrl+C or type "!exit" to quit.
   `);
-    const chatbot = new ChatBot(session);
+    
+    const bard = new Bardie();
 
     try {
         while (true) {
-            const userPrompt = prompt('You: > ');
+            const userPrompt = prompt('You: ');
 
             if (userPrompt === '!exit' || userPrompt === null || userPrompt === undefined || userPrompt === '') {
                 console.log('Exiting...');
                 break;
             }
 
-            const response = await chatbot.ask(userPrompt);
-            console.log('Bardie :', ChatBot.htmlToCommandLine(markdown.render(response.content)) + '\n\n');
+            const response = await bard.questionWithImage({ ask: userPrompt });
+            console.log('Bardie : ', await htmlToCommandLine(markdown.render(response.content)) + '\n\n');
         }
     } catch (error) {
         console.error(error.message);
