@@ -1,4 +1,4 @@
-# Bardie
+# Bardie <a href="https://bard.rizzy.eu.org"><img src="https://camo.githubusercontent.com/adb54264fe2ad5067d07d0752fc32600b4e6250073b01ce8c386575b431e3f06/68747470733a2f2f7777772e677374617469632e636f6d2f6c616d64612f696d616765732f66617669636f6e5f76315f31353031363063646466663766323934636533302e737667" height="20px"></a> API
 
 <p align="center">
   <a target="_blank" href="https://bard.rizzy.eu.org">
@@ -28,30 +28,36 @@
 
 # Note
 
-ID<br>
-Jika Ada Bug,<br>
-Silahkan Buat [Issues](https://github.com/rizzlogy/bardie/issues/new)
+> #### EN
+If there are bugs, please create [Issues](https://github.com/rizzlogy/bardie/issues/new)
 
-EN<br>
-If there are bugs,<br>
-please create [Issues](https://github.com/rizzlogy/bardie/issues/new)
+#### ID
+> Jika Ada Bug, Silahkan Buat [Issues](https://github.com/rizzlogy/bardie/issues/new)
+
 #
 
-# Installation
+# Bardie Installation
 
-**🔲 Installation For CLI**
-```bash
-npm i bardie -g
-```
-#
-**📂 Installation**
+**📂 Normal Installation**
+
 ```bash
 npm i bardie
 ```
+
 #
+
+**🔲 Installation For CLI**
+
+```bash
+npm i bardie -g
+```
+
 # Quick Example
 
 ### **Example Question To Send Bard API Request**
+
+#
+
 ```js
 const Bardie = require('../lib/bardie');
 const bard = new Bardie();
@@ -67,7 +73,9 @@ async function askQuestion() {
 
 askQuestion();
 ```
->>> Response:
+
+##### Response
+
 ```js
 {
   "content": "In a nutshell, I'm Google's AI helper you can chat with. I can answer your questions, generate creative text formats, and help you with various tasks in a simple and informative way. Think of me as a friendly AI companion ready to assist you anytime!",
@@ -75,26 +83,32 @@ askQuestion();
   "creator": "RizzyFuzz"
 }
 ```
+
 ### **Example Question With Image To Send Bard API Request**
+
+#
+
 ```js
 const Bardie = require('../lib/bardie');
 const bard = new Bardie();
 
 async function askQuestionWithImage() {
-	try {
-		let result = await bard.question({
-			ask: "Keep it simple... What is this image?",
-			image: "https://i.imgur.com/OgoPlnf.png"
-		});
-		console.log(result);
-	} catch (error) {
-		console.error("Error:", error.message);
-	}
+ try {
+  let result = await bard.question({
+   ask: "Keep it simple... What is this image?",
+   image: "https://i.imgur.com/OgoPlnf.png"
+  });
+  console.log(result);
+ } catch (error) {
+  console.error("Error:", error.message);
+ }
 };
 
 askQuestionWithImage();
 ```
->>> Response:
+
+##### Response
+
 ```json
 {
   "content": "The image you sent me is the logo of Bard, a large language model chatbot developed by Google AI. The logo consists of two colorful stars, one in red and orange and the other in blue and green, on a gray background. The stars are meant to represent creativity and knowledge, while the gray background represents the real world. I hope this helps!",
@@ -103,4 +117,6 @@ askQuestionWithImage();
 }
 ```
 
-**[Bardie](https://npmjs.com/bardie) Also Supports Typescript & EsModule 🥳!**
+#
+
+**[Bardie](https://npmjs.com/bardie) also Supports Typescript & EsModule! 🥳**
