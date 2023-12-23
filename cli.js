@@ -1,4 +1,3 @@
-"use strict";
 #!/usr/bin/env node
 
 const { hideBin } = require('yargs/helpers');
