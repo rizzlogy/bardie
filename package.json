@@ -5,8 +5,8 @@
   "main": "index.js",
   "types": "./lib/bardie.d.ts",
   "scripts": {
-    "demo": "node examples/question.js",
-    "advancedDemo": "node examples/questionWithImage.js"
+    "question": "node examples/question.js",
+    "questionWithImage": "node examples/questionWithImage.js"
   },
   "bin": {
     "bardie": "cli.js"
