@@ -1,11 +1,11 @@
 const Bardie = require('../lib/bardie');
 const bard = new Bardie();
 
-async function call() {
+async function askQuestionWithImage() {
 	try {
-		let result = await bard.questionWithImage({
-			ask: "BE VERY SIMPLE. What is in the picture? And what colour is it?",
-			image: "https://i.imgur.com/OpdQ5yY.jpg"
+		let result = await bard.question({
+			ask: "Keep it simple... What is this image?",
+			image: "https://i.imgur.com/OgoPlnf.png"
 		});
 		console.log(result);
 	} catch (error) {
@@ -13,4 +13,4 @@ async function call() {
 	}
 };
 
-call();
+askQuestionWithImage();
