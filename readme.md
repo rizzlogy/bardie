@@ -26,16 +26,6 @@
   </a>
 </p>
 
-# Note
-
-#### EN
-> If there are bugs, please create [Issues](https://github.com/rizzlogy/bardie/issues/new)
-
-#### ID
-> Jika Ada Bug, Silahkan Buat [Issues](https://github.com/rizzlogy/bardie/issues/new)
-
-#
-
 # Bardie Installation
 
 **📂 Normal Installation**
@@ -52,7 +42,7 @@ npm i bardie
 npm i bardie -g
 ```
 
-# Quick Example
+# Simple Examples
 
 ### **Example Question To Send Bard API Request**
 
@@ -116,6 +106,16 @@ askQuestionWithImage();
   "creator": "RizzyFuzz"
 }
 ```
+
+#
+
+# Note
+
+#### EN
+> If there are bugs, please create [Issues](https://github.com/rizzlogy/bardie/issues/new)
+
+#### ID
+> Jika Ada Bug, Silahkan Buat [Issues](https://github.com/rizzlogy/bardie/issues/new)
 
 #
 
