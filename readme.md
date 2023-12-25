@@ -26,16 +26,6 @@
   </a>
 </p>
 
-# Note
-
-#### EN
-> If there are bugs, please create [Issues](https://github.com/rizzlogy/bardie/issues/new)
-
-#### ID
-> Jika Ada Bug, Silahkan Buat [Issues](https://github.com/rizzlogy/bardie/issues/new)
-
-#
-
 # Bardie Installation
 
 **📂 Normal Installation**
@@ -52,14 +42,14 @@ npm i bardie
 npm i bardie -g
 ```
 
-# Quick Example
+# Simple Examples
 
 ### **Example Question To Send Bard API Request**
 
 #
 
 ```js
-const Bardie = require('../lib/bardie');
+const Bardie = require("bardie");
 const bard = new Bardie();
 
 async function askQuestion() {
@@ -89,7 +79,7 @@ askQuestion();
 #
 
 ```js
-const Bardie = require('../lib/bardie');
+const Bardie = require("bardie");
 const bard = new Bardie();
 
 async function askQuestionWithImage() {
@@ -116,6 +106,16 @@ askQuestionWithImage();
   "creator": "RizzyFuzz"
 }
 ```
+
+#
+
+# Note
+
+#### EN
+> If there are bugs, please create [Issues](https://github.com/rizzlogy/bardie/issues/new)
+
+#### ID
+> Jika Ada Bug, Silahkan Buat [Issues](https://github.com/rizzlogy/bardie/issues/new)
 
 #
 
