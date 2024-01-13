@@ -1,4 +1,4 @@
-# Bardie <a href="https://bard.rizzy.eu.org"><img src="https://www.gstatic.com/lamda/images/favicon_v1_70c80ffdf27202fd2e84f.png" height="20px"></a> API
+# Bardie <a href="https://bard.rizzy.eu.org"><img src="https://www.gstatic.com/lamda/images/favicon_v1_70c80ffdf27202fd2e84f.png" height="20px"></a>
 
 <p align="center">
   <a target="_blank" href="https://bard.rizzy.eu.org">
