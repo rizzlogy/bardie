@@ -1,4 +1,4 @@
-const Bardie = require("../lib/bardie");
+const { Bardie } = require("../lib/bardie");
 const bard = new Bardie();
 
 async function askQuestion() {
