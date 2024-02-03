@@ -43,7 +43,7 @@ npm i bardie -g
 #
 
 ```js
-const Bardie = require("bardie");
+const { Bardie } = require("bardie");
 const bard = new Bardie();
 
 async function askQuestion() {
@@ -73,7 +73,7 @@ askQuestion();
 #
 
 ```js
-const Bardie = require("bardie");
+const { Bardie } = require("bardie");
 const bard = new Bardie();
 
 async function askQuestionWithImage() {
