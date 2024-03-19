@@ -6,7 +6,9 @@
   "types": "./lib/bardie.d.ts",
   "scripts": {
     "question": "node examples/question.js",
-    "questionWithImage": "node examples/questionWithImage.js"
+    "questionGemini": "node examples/questionGemini.js",
+    "questionWithImage": "node examples/questionWithImage.js",
+    "questionGeminiWithImage": "node examples/questionGeminiWithImage.js"
   },
   "bin": {
     "bardie": "cli.js"
