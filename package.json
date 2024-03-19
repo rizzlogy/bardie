@@ -1,7 +1,7 @@
 {
   "name": "bardie",
-  "version": "2.1.0",
-  "description": "A powerful library for interacting with the Google Bard API",
+  "version": "2.2.0",
+  "description": "A powerful library for interacting with the Google AI",
   "main": "index.js",
   "types": "./lib/bardie.d.ts",
   "scripts": {
@@ -27,8 +27,8 @@
     "completions",
     "cli",
     "bard",
-    "BardAI",
-    "bard.google.com",
+    "Gemini-AI",
+    "gemini.google.com",
     "bard.rizzy.eu.org"
   ],
   "repository": {
