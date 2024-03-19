@@ -21,6 +21,8 @@ declare class Bardie {
    * @throws {Error} If the question is not specified or the image URL is invalid.
    */
   question(options: questionOptions): Promise<AIResponse>;
+
+  questionGemini(options: questionOptions): Promise<AIResponse>;
 }
 
 declare namespace Bardie {}
